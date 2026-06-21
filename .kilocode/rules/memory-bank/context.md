@@ -15,11 +15,12 @@ The template is a clean Next.js 16 starter with TypeScript and Tailwind CSS 4. I
 - [x] Memory bank documentation
 - [x] Recipe system for common features
 - [x] created ethereum plugin for PHP crypto exchange:
-  - `plugins/ethereum/EthereumPlugin.php` - Core RPC client with block, transaction, balance queries
-  - `plugins/ethereum/EthereumWallet.php` - Wallet signing and transaction sending
-  - `plugins/ethereum/exchange_functions.php` - Exchange-specific helper functions
-  - `plugins/ethereum/config.php` - Network and token configuration
-  - `plugins/ethereum/examples/exchange_integration.php` - Integration example
+   - `plugins/ethereum/EthereumPlugin.php` - Core RPC client with block, transaction, balance queries
+   - `plugins/ethereum/EthereumWallet.php` - Wallet signing and transaction sending
+   - `plugins/ethereum/exchange_functions.php` - Exchange-specific helper functions
+   - `plugins/ethereum/config.php` - Network and token configuration
+   - `plugins/ethereum/examples/exchange_integration.php` - Integration example
+   - `plugins/ethereum/assets/data/database.sql` - Database schema for wallets, transactions, blocks, events
 
 ## Current Structure
 
@@ -92,3 +93,4 @@ export async function GET() {
 |------|---------|
 | Initial | Template created with base setup |
 | 2026-06-14 | Created Ethereum PHP plugin for crypto exchange integration |
+| 2026-06-21 | Added database.sql schema to ethereum plugin |

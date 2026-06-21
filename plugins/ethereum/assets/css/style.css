@@ -1,0 +1,153 @@
+.ethereum-wallet {
+    background: #1a1a2e;
+    border: 1px solid #00d9ff;
+    border-radius: 8px;
+    padding: 16px;
+    color: #eaeaea;
+}
+
+.ethereum-wallet-address {
+    font-family: monospace;
+    font-size: 14px;
+    word-break: break-all;
+    color: #00d9ff;
+}
+
+.ethereum-balance {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00ff88;
+}
+
+.ethereum-balance-negative {
+    color: #ff4444;
+}
+
+.ethereum-transaction {
+    background: #252540;
+    border-left: 4px solid #00d9ff;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.ethereum-transaction.success {
+    border-left-color: #00ff88;
+}
+
+.ethereum-transaction.failed {
+    border-left-color: #ff4444;
+}
+
+.ethereum-transaction.pending {
+    border-left-color: #ffaa00;
+}
+
+.ethereum-tx-status {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ethereum-tx-status.success {
+    background: #00ff8820;
+    color: #00ff88;
+}
+
+.ethereum-tx-status.failed {
+    background: #ff444420;
+    color: #ff4444;
+}
+
+.ethereum-tx-status.pending {
+    background: #ffaa0020;
+    color: #ffaa00;
+}
+
+.ethereum-block {
+    background: #1e1e2f;
+    border: 1px solid #3a3a5a;
+    padding: 16px;
+    margin: 8px 0;
+    border-radius: 6px;
+}
+
+.ethereum-block-number {
+    color: #00d9ff;
+    font-weight: bold;
+}
+
+.ethereum-network-indicator {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.ethereum-network-indicator::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #00ff88;
+}
+
+.ethereum-network-indicator.mainnet::before {
+    background: #00ff88;
+}
+
+.ethereum-network-indicator.testnet::before {
+    background: #ffaa00;
+}
+
+.ethereum-gas-price {
+    font-family: monospace;
+    color: #ff6b6b;
+}
+
+.ethereum-value {
+    font-family: monospace;
+    color: #eaeaea;
+}
+
+.ethereum-value-eth {
+    color: #8a9aff;
+}
+
+.ethereum-code-editor {
+    background: #0d0d1a;
+    color: #00ff88;
+    font-family: 'Fira Code', monospace;
+    padding: 16px;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+
+.ethereum-event-log {
+    font-family: monospace;
+    font-size: 12px;
+    background: #151525;
+    padding: 12px;
+    border-radius: 4px;
+    margin: 4px 0;
+}
+
+.ethereum-topic {
+    color: #00d9ff;
+    margin-right: 8px;
+}
+
+.ethereum-account-list {
+    list-style: none;
+    padding: 0;
+}
+
+.ethereum-account-list li {
+    padding: 8px 12px;
+    background: #252540;
+    margin: 4px 0;
+    border-radius: 4px;
+    font-family: monospace;
+}

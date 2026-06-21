@@ -3,6 +3,9 @@
 $HmvcConfig = $HmvcConfig ?? [];
 
 $HmvcConfig['eth'] = [
+    '_title' => 'Ethereum Exchange Plugin',
+    '_description' => 'Ethereum-based cryptocurrency exchange integration with wallet support, transaction monitoring, and smart contract interaction',
+    
     'networks' => [
         'ethereum_mainnet' => [
             'rpc_url' => 'https://mainnet.infura.io/v3/YOUR_PROJECT_ID',

@@ -1,6 +1,8 @@
 <?php
 
-return [
+$HmvcConfig = $HmvcConfig ?? [];
+
+$HmvcConfig['eth'] = [
     'networks' => [
         'ethereum_mainnet' => [
             'rpc_url' => 'https://mainnet.infura.io/v3/YOUR_PROJECT_ID',
@@ -44,3 +46,5 @@ return [
     'hot_wallet_address' => '0x...',
     'hot_wallet_private_key' => '...'
 ];
+
+return $HmvcConfig;

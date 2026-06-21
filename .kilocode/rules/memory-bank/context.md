@@ -21,6 +21,7 @@ The template is a clean Next.js 16 starter with TypeScript and Tailwind CSS 4. I
    - `plugins/ethereum/config.php` - Network and token configuration
    - `plugins/ethereum/examples/exchange_integration.php` - Integration example
    - `plugins/ethereum/assets/data/database.sql` - Database schema for wallets, transactions, blocks, events
+   - `plugins/ethereum/assets/images/thumbnail.jpg` - Plugin thumbnail image
 
 ## Current Structure
 
@@ -93,4 +94,4 @@ export async function GET() {
 |------|---------|
 | Initial | Template created with base setup |
 | 2026-06-14 | Created Ethereum PHP plugin for crypto exchange integration |
-| 2026-06-21 | Added database.sql schema to ethereum plugin |
+| 2026-06-21 | Added database.sql schema and thumbnail.jpg to ethereum plugin |
